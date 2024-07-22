@@ -1,0 +1,6 @@
+GUI r
+DELAY 100
+STRING notepad.exe
+ENTER
+DELAY 500
+STRING hello world! - payload0

