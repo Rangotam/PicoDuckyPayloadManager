@@ -43,22 +43,13 @@ Just keep in mind that the payloads expect a **raw text page**. You can use what
 
 Also, it may be trivial but you obviously will need an internet connection on the computer you'll execute this code on.
 
->[!warning] Modifying payloads
->Please note that in order to be able to modify payloads, you must have [USB mode](https://github.com/dbisu/pico-ducky?tab=readme-ov-file#usb-enabledisable-mode) disabled on your pico-ducky, otherwise your it'll will crash.
+>Please note that in order to be able to modify payloads, you must have [USB mode](https://github.com/dbisu/pico-ducky?tab=readme-ov-file#usb-enabledisable-mode) disabled on your pico-ducky, otherwise your it'll crash.
 
 
 # Settings
-
 Within the settings page you'll find a few tweaking options.
-1. A few color palettes to change the theme of the application
+1. A bunch of color palettes to change the theme of the application
 2. A table where you can store descriptions for each one of the payloads (so you don't go insane trying to remember what everything does).
--
+
 As of now, all these settings require you to reload the application.
- know it's not very elegant but I've yet to figure out how to do that. :V
-
-
-# Info
-
-This project was developed in React-Native within the EXPO framework.
-
-glorified api??
+I know it's not very elegant but I've yet to figure out how to do that. :V
