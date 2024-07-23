@@ -1,8 +1,14 @@
-# Prerequisites
+<h1 align="center">Pico ducky payload manager</h1>
+
+<div align="center">
+  <strong>An application to make use of the wireless functionalities of the Pico-DuckyW</strong>
+</div>
+
+## Prerequisites
 
 A working Pico-Ducky W (stress on the W).
 You can make one following dbisu's repo: https://github.com/dbisu/pico-ducky
-# Quick start
+## Quick start
 You don't need that much to use this app. just paste what's inside the payload folder into the main folder of your pico-ducky. 
 1. Download the latest release from the Releases page.
 2. Paste or set up the necessary payloads for the app to work. You can find a blank template in the Payloads page.
@@ -11,15 +17,15 @@ You don't need that much to use this app. just paste what's inside the payload f
 Note that not all payloads are *actually needed*, keep in mind though that if you don't provide all of them obviously the relative sections in the app won't work.
 
 
-# Using PicoDuckyPayloadManager
+## Using PicoDuckyPayloadManager
 
 There are 3 main features:
 
-## 1. Fixed payloads
+### 1. Fixed payloads
 
 Easily manage pre-defined payloads. These are meant to be your go-to payloads as you won't be able to change them (at least from here!).
 
-## 2. Editable payloads
+### 2. Editable payloads
 
 Customize your payloads on the go. Simply choose between the 6 available editable payloads which one to modify. 
 To do so:
@@ -29,7 +35,7 @@ To do so:
 3. Click **save** to save your changes and upload them to your pico-ducky
 4. Click the rocket to execute your newly-modified payload!
 
-## 3. Linkable payloads
+### 3. Linkable payloads
 
 Similar to the editable payloads, but these ones are made with the intention of executing some code hosted somewhere else. 
 Just pop in the link of the page where your code is written and these payloads will download the code from there and execute it! 
@@ -44,7 +50,6 @@ Just keep in mind that the payloads expect a **raw text page**. You can use what
 Also, it may be trivial but you obviously will need an internet connection on the computer you'll execute this code on.
 
 >Please note that in order to be able to modify payloads, you must have [USB mode](https://github.com/dbisu/pico-ducky?tab=readme-ov-file#usb-enabledisable-mode) disabled on your pico-ducky, otherwise your it'll crash.
-
 
 # Settings
 Within the settings page you'll find a few tweaking options.
