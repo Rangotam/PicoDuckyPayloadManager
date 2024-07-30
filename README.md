@@ -36,6 +36,14 @@ To do so:
 3. Click **save** to save your changes and upload them to your pico-ducky
 4. Click the rocket to execute your newly-modified payload!
 
+editable payload example:
+>GUI r
+DELAY 100
+STRING notepad.exe
+ENTER
+DELAY 500
+STRING hello world! - editable payload0
+
 ### 3. Linkable payloads
 
 Similar to the editable payloads, but these ones are made with the intention of executing some code hosted somewhere else. 
@@ -49,7 +57,7 @@ To do so:
 Just keep in mind that the payloads expect a **raw text page**. You can use whatever you want as long as it's just text, but for this purpose I suggest either github or pastebin.
 Also, it may be trivial but you'll obviously need an internet connection on the computer you'll execute this code on in order to be able to download the code.
 
->Please note: in order to be able to modify payloads, you must have [USB mode](https://github.com/dbisu/pico-ducky?tab=readme-ov-file#usb-enabledisable-mode) disabled on your pico-ducky, otherwise your it'll crash.
+>Please note: in order to be able to modify payloads, you must have [USB mode](https://github.com/dbisu/pico-ducky?tab=readme-ov-file#usb-enabledisable-mode) disabled on your pico-ducky, otherwise it will crash.
 
 # Settings
 Within the settings page you'll find a few tweaking options.
