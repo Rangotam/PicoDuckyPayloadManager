@@ -38,11 +38,11 @@ To do so:
 
 editable payload example:
 >GUI r
-DELAY 100
-STRING notepad.exe
-ENTER
-DELAY 500
-STRING hello world! - editable payload0
+>DELAY 100
+>STRING notepad.exe
+>ENTER
+>DELAY 500
+>STRING hello world! - editable payload0
 
 ### 3. Linkable payloads
 
